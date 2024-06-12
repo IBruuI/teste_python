@@ -1,0 +1,13 @@
+print("Salário")
+salario = float(input("Digite o seu salário anitgo: "))
+niveltrab = input("Qual seu nivel (Junior, Pleno ou Senior): ")
+
+if(niveltrab == 'Junior' or 'junior'):
+  aumento = float(salario * 0.1) + salario
+  print(f"O aumento do seu salario novo é de {aumento}, e o seu nivel de trabalho é {niveltrab}")
+elif(niveltrab == 'Pleno' or 'pleno'):
+  aumento = float(salario * 0.2) + salario
+  print(f"O aumento do seu salario novo é de {aumento}, e o seu nivel de trabalho é {niveltrab}")
+elif(niveltrab == 'Senior' or 'senior'):
+  aumento = float(salario * 0.3) + salario
+  print(f"O aumento do seu salario novo é de {aumento}, e o seu nivel de trabalho é {niveltrab}")
