@@ -1,0 +1,21 @@
+#Tabuada 
+print("TABUADA ONLINE")
+print("Digite o numero da tabuada e ela irá aparecer completa do 1 ao 10")
+
+tabuada=int(input("Digite aqui o numero da tabuada: "))
+
+for count in range(10):
+  print("%d x %d = %d" % (tabuada, count+1, tabuada*(count+1)))
+
+#EX3
+V = [9, 8, 7, 12, 0, 13, 21]
+P = []
+I = []
+
+for num in V:
+  if(num % 2 == 0):
+    P.append(num)
+  else:
+    I.append(num)
+print("Numeros pares", P)
+print("Numeros impares", I)
