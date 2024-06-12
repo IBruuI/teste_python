@@ -1,0 +1,11 @@
+nivel = input("qual seu nivel")
+salario = float(input("qual seu salario"))
+
+if(nivel == "Junior"):
+  novo_salario = salario * 1.1
+elif(nivel == "Pleno"):
+  novo_salario = salario * 1.2
+elif(nivel == "Senior"):
+  novo_salario = salario * 1.3
+
+print(f"Seu nivel é {nivel} e seu salario é {novo_salario:.2f}")
