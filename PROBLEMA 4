@@ -1,0 +1,13 @@
+#PROBLEMA 4
+
+total = 1
+
+while True:
+    num = int(input("Digite um numero "))
+
+    if num == 0:
+        break
+    else:
+        total = total * num
+
+print(total)
