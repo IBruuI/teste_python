@@ -1,0 +1,17 @@
+#PROBLEMA 3
+
+def main(lista):
+
+    media = 0
+    soma = 0
+
+    for i in lista:
+        soma = soma + i
+
+    media =  soma / len(lista)
+
+
+    return media
+
+print(main([1, 2, 3, 4, 5]))
+print(main([6, 7, 8, 9, 10]))
