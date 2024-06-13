@@ -1,0 +1,13 @@
+#PROBLEMA 2
+
+def main(ultimo):
+    total = 0
+    i = 1
+    while i <= ultimo:
+      total = total + i
+      i = i + 2
+
+    return total
+
+print(main(10))
+print(main(30))
